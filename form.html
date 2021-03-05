@@ -50,7 +50,22 @@
     <fieldset>
         <legend><h1>Oder form </h1> </legend><br>
         <p>what would you like to buy?</p><br><br>
-        <input type="text"><br><br>
+        <input type="text">
+        <!-- bên dưới này là kiểu chọn chỉ một-->
+        <select name="choose">
+            <option value="pants">pants</option>
+            <option value="shirt">shirt</option>
+            <option value="shoes">shoes</option>
+            <option value="hat">hat</option>
+            <br>
+            <!--bên dưới này là kiểu chọn nhiều sự chọn lựa-->
+        </select><br><br>
+        <select name="choose" multiple>
+            <option value="pants">pants</option><br>
+            <option value="shirt">shirt</option><br>
+            <option value="shoes">shoes</option><br>
+            <option value="hat">hat</option><br>
+        </select><br><br>
         <p>How many would you like to order?</p><br>
         <input type="radio">1 - $10 <br>
         <input type="radio">2 - $20 <br>
